@@ -7,9 +7,10 @@ import javax.swing.JFrame;
 import javax.swing.Timer;
  
  
-	public class Main {
+public class Main {
  
-		static JFrame frame = new JFrame();		
+	static JFrame frame = new JFrame();
+	
 	public static void main (String [] args) throws InterruptedException{
 		
 		frame.setSize(Game.WIDTH, Game.HEIGHT);					//declares the JFrame (window) that all of this is housed in
